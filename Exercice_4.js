@@ -1,6 +1,11 @@
-var test1 = "nom" ;
-alert (test1 = "Doe");
-var test2 = "prenom" ;
-alert (test2 = "John");
-var test3 = "ville" ;
-alert (test3 = "New-York");
+var nom = document.getElementById("nom").value
+var prenom = document.getElementById("prenom").value 
+var ville = document.getElementById("ville").value
+var btn = document.getElementById("valider");
+
+btn.addEventListener("click", function(){
+
+    alert(test1 + test2 + test3);
+
+});
+

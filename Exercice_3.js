@@ -1,2 +1,2 @@
 var nom = prompt("hello");
-alert ("bonjour" + nom,);
+alert ("Bonjour " + nom);

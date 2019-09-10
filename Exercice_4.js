@@ -1,11 +1,11 @@
-var nom = document.getElementById("nom").value
-var prenom = document.getElementById("prenom").value 
-var ville = document.getElementById("ville").value
+var nomInput = document.getElementById("nom");
+var prenomInput = document.getElementById("prenom");
+var villeInput = document.getElementById("ville");
+
 var btn = document.getElementById("valider");
 
 btn.addEventListener("click", function(){
-
-    alert(test1 + test2 + test3);
+alert(nomInput.value + "\n" + prenomInput.value + "\n"  + villeInput.value);
 
 });
 

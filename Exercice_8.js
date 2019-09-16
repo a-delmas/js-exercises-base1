@@ -1,4 +1,4 @@
-var ageInput = document.getElementById("age");
+var age = document.getElementById("age");
 
 var btn = document.getElementById("valider");
 
@@ -6,10 +6,10 @@ btn.addEventListener("click", function(){
    
 
 
-if(ageInput.value> 18)
-   alert ("vous etes majour")
+if(age.value > 18)
+   alert ("vous etes majeur")
 
-   if(ageInput.value< 18)
-   alert ("vous etes meneur")
+   if(age.value < 18)
+   alert ("vous etes mineur")
 
 })
